@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="6"
+    android:orientation="horizontal"
+    android:rowCount="6"
+    android:useDefaultMargins="true" >
+
+    <!-- signs -->
+    <!-- row 0 -->
+    <ImageView
+        android:id="@+id/sign_zero_left"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    <ImageView
+        android:id="@+id/sign_zero_right"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    
+    <!-- row 1 -->
+    <ImageView
+        android:id="@+id/sign_one_left"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    <ImageView
+        android:id="@+id/sign_one_middle"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    <ImageView
+        android:id="@+id/sign_one_right"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="1"
+        android:layout_column="4"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    
+    <!-- row 2 -->
+    <ImageView
+        android:id="@+id/sign_two_left"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    <ImageView
+        android:id="@+id/sign_two_right"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    
+    <!-- row 3 -->
+    <ImageView
+        android:id="@+id/sign_three_left"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    <ImageView
+        android:id="@+id/sign_three_middle"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    <ImageView
+        android:id="@+id/sign_three_right"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="3"
+        android:layout_column="4"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    
+    <!-- row 4 -->
+    <ImageView
+        android:id="@+id/sign_four_left"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    <ImageView
+        android:id="@+id/sign_four_right"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:src="@drawable/sign_placeholder"
+        android:contentDescription="@string/sign_placeholder" />
+    
+    <!-- background -->
+    <ImageView
+        android:id="@+id/background1"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:src="@drawable/background"
+        android:contentDescription="@string/background" />
+    <ImageView
+        android:id="@+id/background2"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:src="@drawable/background"
+        android:contentDescription="@string/background" />
+     <ImageView
+        android:id="@+id/background3"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:src="@drawable/background"
+        android:contentDescription="@string/background" />
+    <ImageView
+        android:id="@+id/background4"
+        android:layout_width="@dimen/grid_size"
+        android:layout_height="@dimen/grid_size"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:src="@drawable/background"
+        android:contentDescription="@string/background" />
+    
+    <!-- answers -->
+	<TextView
+	    android:id="@+id/answer_row_zero"
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/grid_size"
+	    android:layout_row="0"
+	    android:layout_column="5"
+	    android:gravity="center"
+	    android:text="@string/answer_placeholder"
+	    android:textColor="@color/answer_color"
+	    android:textSize="@dimen/answer_size" />
+	<TextView
+	    android:id="@+id/answer_row_two"
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/grid_size"
+	    android:layout_row="2"
+	    android:layout_column="5"
+	    android:gravity="center"
+	    android:text="@string/answer_placeholder"
+	    android:textColor="@color/answer_color"
+	    android:textSize="@dimen/answer_size" />
+	<TextView
+	    android:id="@+id/answer_row_four"
+	    android:layout_width="wrap_content"
+	    android:layout_height="@dimen/grid_size"
+	    android:layout_row="4"
+	    android:layout_column="5"
+	    android:gravity="center"
+	    android:text="@string/answer_placeholder"
+	    android:textColor="@color/answer_color"
+	    android:textSize="@dimen/answer_size" />
+	<TextView
+	    android:id="@+id/answer_col_zero"
+	    android:layout_width="@dimen/grid_size"
+	    android:layout_height="wrap_content"
+	    android:layout_row="5"
+	    android:layout_column="0"
+	    android:gravity="center"
+	    android:text="@string/answer_placeholder"
+	    android:textColor="@color/answer_color"
+	    android:textSize="@dimen/answer_size" />
+	<TextView
+	    android:id="@+id/answer_col_two"
+	    android:layout_width="@dimen/grid_size"
+	    android:layout_height="wrap_content"
+	    android:layout_row="5"
+	    android:layout_column="2"
+	    android:gravity="center"
+	    android:text="@string/answer_placeholder"
+	    android:textColor="@color/answer_color"
+	    android:textSize="@dimen/answer_size" />
+	<TextView
+	    android:id="@+id/answer_col_four"
+	    android:layout_width="@dimen/grid_size"
+	    android:layout_height="wrap_content"
+	    android:layout_row="5"
+	    android:layout_column="4"
+	    android:gravity="center"
+	    android:text="@string/answer_placeholder"
+	    android:textColor="@color/answer_color"
+	    android:textSize="@dimen/answer_size" />
+	
+</GridLayout>
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Math Squares</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="number_placeholder">number placeholder</string>
+    <string name="sign_placeholder">sign placeholder</string>
+    <string name="background">background</string>
+    <string name="answer_placeholder">000</string>
+    <string name="answer_button">answer button</string>
+    
+    <string name="submit">submit</string>
+    <string name="switch_to_game">Match-It Game</string>
+    <string name="timer">test</string>
+</resources>
